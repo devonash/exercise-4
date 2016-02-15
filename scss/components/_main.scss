@@ -1,12 +1,12 @@
 body {
-  background: #eee;
+  background: $bg;
   text-align: center;
   padding-top: 20px;
 }
 
 .ghost-button {
-    color: #009688;
-    background: #fff;
+    color: $primary;
+    background: $secondary;
     border: 1px solid #009688;
     font-size: 17px;
     padding: 7px 12px;
@@ -20,6 +20,7 @@ body {
 }
 
 .ghost-button:hover, .ghost-button:active {
-  color:#fff;
-  background:#009688;
+  color: $secondary;
+  background: $primary;
 }
+
