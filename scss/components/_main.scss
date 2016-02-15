@@ -28,3 +28,37 @@ body {
     box-shadow: 1px 1px 1px $shade;
   } 
 }
+
+.title {
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 50%;
+}
+
+@media only screen and (min-width: 25em) {
+  
+  .content {
+    margin-top: 40%;
+  }
+  
+}
+
+@media only screen and (min-width: 38em) {
+  
+  .content {
+    margin-top: 20%;
+  }
+  
+}
+
+@media only screen and (min-width: 60em) {
+  
+  .content {
+    margin-top: 10%;
+  }
+  
+}
