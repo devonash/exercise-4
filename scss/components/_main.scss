@@ -5,25 +5,27 @@ body {
 }
 
 .ghost-button {
-    color: $b;
-    background: rgba(0, 0, 0, 0.1);
-    border: 1px solid $b;
-    font-size: 17px;
-    padding: 7px 12px;
-    font-weight: normal;
-    margin: 10px 0;
-    margin-right: 12px;
-    display: inline-block;
-    text-decoration: none;
-    font-family: 'Exo', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    min-width: 120px;
-    border-radius: 6%;
+  color: $b;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid $b;
+  font-size: 17px;
+  padding: 7px 12px;
+  font-weight: normal;
+  margin: 10px 0;
+  margin-right: 12px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  min-width: 120px;
+  border-radius: 6%;
+  transition: background .30s ease-in-out;
 }
 
 .ghost-button:hover, .ghost-button:active {
   color: $b;
-  background: $primary;
   border: none;
+  background: $primary;
+  box-shadow: 2px 1px 1px #888888;
 }
