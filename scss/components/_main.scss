@@ -5,8 +5,8 @@ body {
 }
 
 .ghost-button {
-    color: $secondary;
-    background: $b;
+    color: $b;
+    background: rgba(0, 0, 0, 0.1);
     border: 1px solid $b;
     font-size: 17px;
     padding: 7px 12px;
@@ -15,12 +15,15 @@ body {
     margin-right: 12px;
     display: inline-block;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
     min-width: 120px;
+    border-radius: 6%;
 }
 
 .ghost-button:hover, .ghost-button:active {
   color: $b;
   background: $primary;
-  border: 1px solid $b;
+  border: none;
 }
