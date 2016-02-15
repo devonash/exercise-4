@@ -5,7 +5,7 @@ body {
 }
 
 .ghost-button {
-    color: $primary;
+    color: $b;
     background: $secondary;
     border: 1px solid #009688;
     font-size: 17px;
@@ -24,3 +24,10 @@ body {
   background: $primary;
 }
 
+@media only screen and (min-width: 38em) {
+  
+  .ghost-button{
+    
+  }
+  
+}

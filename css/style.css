@@ -338,7 +338,7 @@ body {
 }
 
 .ghost-button {
-  color: #009688;
+  color: #000;
   background: #fff;
   border: 1px solid #009688;
   font-size: 17px;
@@ -354,5 +354,5 @@ body {
 
 .ghost-button:hover, .ghost-button:active {
   color: #fff;
-  background: #009688;
+  background: #e6e600;
 }
