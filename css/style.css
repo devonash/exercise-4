@@ -353,12 +353,12 @@ body {
   font-weight: 700;
   min-width: 120px;
   border-radius: 6%;
-  transition: background .30s ease-in-out;
+  transition: background .40s ease-in-out;
 }
 
 .ghost-button:hover, .ghost-button:active {
   color: #000;
   border: none;
   background: #ffff00;
-  box-shadow: 2px 1px 1px #888888;
+  box-shadow: 1px 1px 1px #888888;
 }
