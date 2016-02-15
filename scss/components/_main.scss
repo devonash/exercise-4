@@ -5,13 +5,13 @@ body {
 }
 
 .ghost-button {
-    color: $b;
-    background: $secondary;
-    border: 1px solid #009688;
+    color: $secondary;
+    background: $b;
+    border: 1px solid $b;
     font-size: 17px;
     padding: 7px 12px;
     font-weight: normal;
-    margin: 6px 0;
+    margin: 10px 0;
     margin-right: 12px;
     display: inline-block;
     text-decoration: none;
@@ -20,14 +20,7 @@ body {
 }
 
 .ghost-button:hover, .ghost-button:active {
-  color: $secondary;
+  color: $b;
   background: $primary;
-}
-
-@media only screen and (min-width: 38em) {
-  
-  .ghost-button{
-    
-  }
-  
+  border: 1px solid $b;
 }
